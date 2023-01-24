@@ -47,7 +47,7 @@ p {
 
 /* ---------- LAYOUT & APPEARANCE ------------------ */
 .mainWrapper {
-    width: 100%;
+    idth: 100%;
     margin: 0 auto;
 }
 
