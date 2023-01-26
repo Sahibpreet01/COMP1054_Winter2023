@@ -17,7 +17,7 @@ html {
     font-size: 10px;
     font-weight: 300; 
     box-sizing: border-box;
-    width:100%; 
+    max-width:100%; 
 }
 
 
