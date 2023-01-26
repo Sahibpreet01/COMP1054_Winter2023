@@ -80,6 +80,7 @@ header nav ul {
 
 
 nav ul li a {
+    flex:1; 
     text-decoration:none; 
     outline: none; 
     padding: 10px; 
