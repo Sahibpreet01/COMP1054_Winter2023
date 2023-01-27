@@ -68,7 +68,46 @@ a:active {
 - links should have a background color of background-color: #F5F5DC; and the text should be #333;
 - visited and focus links should have a background-color of #265301; and the text should #fff
 - when you hover on the links, the background should change to  background-color: #B2AC88; and the text should be color: #fff;
-- an active link should have a background of #333 and text color #fff 
+- an active link should have a background of #333 and text color #fff */
+
+nav ul li {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    line-height: 3;
+    font-weight: 700;
+}
+
+nav ul li a:link {
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+nav ul li a:visited,
+nav ul li a:focus {
+    background-color: #265301;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #B2AC88; 
+    color: #fff;
+}
+
+nav ul li a:active {
+    background-color: #333; 
+    color: #fff; 
+}
 
 
 
@@ -80,6 +119,6 @@ a:active {
 
 
 
-*/
+
 
 /* Adapted from https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
